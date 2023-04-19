@@ -1,0 +1,22 @@
+h1, h2, h3, h4, h5, h6 {
+  text-align: center;
+  font-family: 'Segoe UI';
+  color: rgb(70, 42, 255);
+  font-style: italic;
+}
+
+img {
+  width: 350px;
+  height: 350px;
+
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.comp {
+  text-align: center;
+}

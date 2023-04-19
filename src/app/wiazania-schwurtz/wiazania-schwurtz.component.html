@@ -1,0 +1,28 @@
+<div>
+  <h2>Test wiazania-schwurtz</h2>
+  <img src="assets/kevin.png" alt="" class="center"/>
+</div>
+
+<div class="comp">
+
+  <!--przyklad interpolacji-->
+  <h3>Interpolacja = {{tytul}}</h3><br>
+
+  <!--przyklad property bindingu-->
+  <h3>Property Binding = Wpisz tekst: </h3>
+  <input [value]="prop"><br>
+
+  <!--przyklad event bindingu-->
+  <h3>Event Binding = Po wcisnieciu na pole przycisk sie uaktywni</h3>
+  <input (click)="onClick($event)">
+  <button [disabled]="button">Pokaz</button>
+  {{showClick}}<br>
+
+  <!--przyklad Two-Way Bindingu-->
+  <h3>Two-Way Binding = Tekst pojawi się po wpisaniu w pole</h3>
+  <input [(ngModel)]="txt2way">
+  {{txt2way}}
+
+</div>
+
+
